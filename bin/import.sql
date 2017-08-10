@@ -1,5 +1,5 @@
 -- Usuarios
-insert into usuario (codigo, clave, tipo_documento, numero_documento, nombres, apellidos, correo, telefono) values ('admin', 'admin', 'CC', '123123', 'Admin', 'Admin', 'henhav@gmail.com', '123456789');
+insert into usuario (codigo, clave, tipo_documento, numero_documento, nombres, apellidos, correo, telefono) values ('admin', 'admin', 'CC', '123123', 'Admin', 'Admin', 'eafit.especializacion@gmail.com', '123456789');
 
 
 -- Plantillas notificacion
