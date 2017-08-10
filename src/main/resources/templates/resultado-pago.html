@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Resultado Pago</title>
+</head>
+<body>
+  <div data-th-if="${error} eq null">
+    <h1 data-th-text="${mensaje}">Mensaje</h1>
+    <a data-th-href="${pdfUrl}">Generar documento</a>
+  </div>
+  <div data-th-if="${error} ne null">
+    <h3 data-th-text="${error}" style="color: red;">Error</h3>
+  </div>
+</body>
+</html>

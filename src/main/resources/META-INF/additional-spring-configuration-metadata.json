@@ -1,0 +1,30 @@
+{
+	"groups": [
+		{
+			"name": "configuracion.servicio.dominio",
+			"type": "eafit.catastro.servicio.aplicacion.ConfiguracionServiciosDominio"
+		}
+	],
+	"properties": [
+		{
+			"name": "configuracion.servicio.dominio.seguridad.url",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "configuracion.servicio.dominio.notificacion.url",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "configuracion.servicio.dominio.catastro.url",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "configuracion.servicio.dominio.facturacion.url",
+			"type": "java.lang.String"
+		},
+		{
+			"name": "configuracion.servicio.dominio.pagos.url",
+			"type": "java.lang.String"
+		}
+	]
+}

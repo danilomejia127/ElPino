@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Pagar Orden</title>
+</head>
+<body>
+  <div data-th-if="${error} eq null">
+    <h1 data-th-text="${'Pagar Orden No. ' + orden.id}">Pagar Orden No. 1</h1>
+    <form data-th-action="${pagoUrl}" method="post">
+      <button type="submit">Pagar</button>
+    </form>
+  </div>
+  <div data-th-if="${error} ne null">
+    <h3 data-th-text="${error}" style="color: red;">Error</h3>
+  </div>
+</body>
+</html>
